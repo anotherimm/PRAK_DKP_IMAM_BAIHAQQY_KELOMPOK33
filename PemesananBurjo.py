@@ -122,7 +122,7 @@ while (pesan_tambahan == True):
         else:
             print(tidak_ada_uang("tambahan") + " coba pesan menu lain")
 
-# Ingin dibawa pulang / makan di tempat
+# Pengkondisian Jika ingin dibawa pulang / makan di tempat
 print("---------------------------------")
 if(pesanan1 == True or pesanan2 == True or pesanan3 == True):
     print("1. Dibungkus \n2. Makan di tempat")

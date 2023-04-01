@@ -17,7 +17,7 @@ pesanan3 = False
 
 
 print("----------- BURJO DKP UHUY -----------")
-# variabel untuk menyimpan nilai uang, menu makanan, menu minuman, dan menu tambahan
+# Variabel Untuk Menyimpan Nilai Uang, Menu Makanan, Menu Minuman, dan Menu Tambahan
 uang = int (input('Masukan jumlah uang anda : '))
 makanan = ["Orak-arik Ayam",14000], ["Magelangan",13000], ["MIE Dok-dok", 12000], ["Nasi Goreng", 13000]
 minuman = ["ES Tea Manis", 6000], ["Air Mineral", 3000], ["Teh Anget", 5000], ["Jus Jeruk", 9000]

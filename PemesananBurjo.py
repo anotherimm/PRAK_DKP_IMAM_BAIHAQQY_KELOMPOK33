@@ -6,7 +6,7 @@ def tidak_ada_uang(jenis):
 def sisa_uang():
     return("sisa uang mu adalah Rp." + str(uang))
 
-# inisialisasi nilai awal saat pemesanan 
+# Inisialisasi Nilai Awal Saat Pemesanan
 pesan_makanan = False
 pesan_minuman = False
 pesan_tambahan = False

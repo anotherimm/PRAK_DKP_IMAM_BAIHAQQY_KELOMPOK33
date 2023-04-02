@@ -34,7 +34,7 @@ print("---------------------------------")
 for i in range (makananlen):
     print(str(i+1) + ". " + makanan[i][0] + " (Rp." + str(makanan[i][1]) + ")")
     
-#Mengecek apabila cukup uang untuk membeli menu    
+#Mengecek apabila cukup uang untuk membeli menu makanan   
 for j in range(makananlen):
     if(uang >= makanan[j][1]):
         pesan_makanan = True
@@ -65,7 +65,7 @@ print("---------------------------------")
 for i in range (minumanlen):
     print(str(i+1) + ". " + minuman[i][0] + " (Rp." + str(minuman[i][1]) + ")")
    
-#Mengecek apabila cukup uang untuk membeli menu
+#Mengecek apabila cukup uang untuk membeli menu minuman
 for j in range(minumanlen):
     if(uang >= minuman[j][1]):
         pesan_minuman = True
@@ -96,7 +96,7 @@ print("---------------------------------")
 for i in range (tambahanlen):
     print(str(i+1) + ". " + tambahan[i][0] + " (Rp." + str(tambahan[i][1]) + ")")
 
-#Mengecek apabila cukup uang untuk membeli menu
+#Mengecek apabila cukup uang untuk membeli menu tambahan
 for j in range(tambahanlen):
     if(uang >= tambahan[j][1]):
         pesan_tambahan = True
